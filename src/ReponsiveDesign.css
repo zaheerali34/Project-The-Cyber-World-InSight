@@ -1,0 +1,502 @@
+@media (max-width: 992px) {
+    .nav_meun_btn {
+        display: block;
+    }
+
+    .header_container nav {
+        position: absolute;
+        top: 6.2rem; right: 0; left: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(180deg, rgb(252, 234, 234), #fbd0d0);
+        z-index: 99;
+        position: fixed;
+        box-shadow: 0 8px 8px 2px gray;
+        font-size: 1.5rem;
+        transition: 0.6s;
+        transform: translateX(200vh);
+        padding-top: 1rem;
+    }
+
+    .header_container .responsive_nav {
+        transform: none;
+    }
+
+    .header_container nav ul  {
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .header_container nav ul li:hover {
+        background-color: #f0b8b891;
+        padding: 1rem 3rem;
+        border-radius: 4rem;
+    }
+
+    .home_bar {
+        height: 100%;
+    }
+
+    .home_text {
+        flex-direction: column;
+    }
+
+    .home_text p {
+        padding-top: 2rem;
+    }
+
+    .section_one {
+        height: 100%;
+    }
+
+    .section_box button {
+        top: 0.1rem;
+    }
+ 
+    .section {
+        height: 100%;
+    }
+
+    .section .mine_bar .section_box {
+        width: 30%;
+        height: 100%;
+    }
+
+    .section_there button {
+        position: relative;
+        bottom: 0;
+      }
+      
+
+    .mine_bar .section_box .box_section_text h2 {
+        font-size: 1rem;
+    }
+
+    .mine_bar .section_box .box_section_text p {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .mine_bar .section_box button {
+        font-size: 0.8rem;
+        padding: 1rem 4rem;
+    }
+
+    .section_there .mine_bar .section_box button {
+        padding: 1.2rem;
+    }
+
+    .section_there .border_bar .border_box p {
+        font-size: 0.8rem;
+    }
+
+    .section_hover {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    .section_fover_bg .section_box {
+        height: 100%;
+    }
+
+    .section_hover .hover_img {
+        width: 85%;
+    }
+
+    .from_bg .form_bar .border form input {
+        width: 15rem;
+    }
+
+    .section_fover_bg {
+        height: 90vh;
+        margin-top: -0.1rem;
+    }
+
+    .section_fover_bg .mine_bar .section_box .box_section_text p {
+        width: 21%;
+        font-size: 0.7rem;
+    } 
+
+    .section_fover_bg .mine_bar .section_box .line {
+        position: relative;
+        top: 24rem;
+    } 
+
+    .about_bar .img_container  {
+        flex-direction: column;
+    }
+
+    .contribute .contribute_bar {
+        height: 100%;
+    }
+
+    .contribute .contribute_bar .flex_warp {
+        flex-direction: column;
+    }
+
+    .contribute_bar .flex_warp .text_contribute {
+        padding-left: 2rem;
+    }
+
+    .contribute_bar .flex_warp .text_contribute p {
+        width: 100%;
+    }
+
+    .section_fover_bg .mine_bar .section_box {
+        height: 100vh;
+    }
+
+    .section_fover_bg .mine_bar .section_box .box_section_text p {
+        padding-top: 80rem;
+    }
+
+    .section_fover_bg .mine_bar .section_box {
+        
+    }
+
+    .footer_bar .footer_one {
+        flex-wrap: wrap;
+    }
+
+    .footer_bar .footer_one .footer_text h3 {
+        font-size: 0.8rem;
+    }
+
+    .footer_bar .footer_one .footer_text ul li {
+        font-size: 0.7rem;
+    }
+
+    .section_hover {
+        margin-top: 2rem;
+    }
+
+    .contribute_there .num_box {
+        gap: 20px;
+    }
+
+    .contribute_there .num_box .num_text .top_bar p {
+        width: 150%;
+    } 
+
+    .contribute_there .num_box .num_text p {
+        width: 150%;
+    }
+
+    .new_bar .new_text {
+        padding-top: 5rem;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .new_bar .cyber_icon  {
+        flex-direction: row;
+        position: relative;
+        bottom: 8rem;
+        left: 5rem;
+    }
+
+    .new_bar .cyber_icon img {
+        width: 4rem;
+    }
+
+    .new_bar .blog_card  {
+        flex-direction: column;
+    }
+
+
+    .new_bar .blog_card .card_box {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .section {
+        height: 100%;
+    }
+    
+    .section .mine_bar {
+        flex-wrap: wrap;
+    }
+
+    .section .mine_bar .section_box {
+       width: 100%;
+    }
+
+    .section .mine_bar .section_box button {
+        width: 100%;
+    }
+
+    .section_fover_bg {
+        height: 100%;
+    } 
+
+    .border .border_text h1 {
+        font-size: 1.5rem;
+    }
+
+    .border .border_text .border_bar {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .border .border_text .border_bar .border_box {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .border .border_text .border_bar .border_box h2 {
+        font-size: 0.7rem;
+    } 
+
+    .border h1 {
+        padding-left: 0;
+    }
+
+    .hover_img {
+        margin-left: 2.5rem;
+    }
+
+    .form_bar .border h1 {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    .form_bar form .input_bar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact_bar .contact_box {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact_bar .contact_box .box_text p{
+        width: 90%;
+    }
+
+    .form_bar .input {
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .form_bar .input input {
+        width: 90%;
+    }
+
+    .form_bar .input textarea {
+        width: 90%;
+    }
+
+    .form_bar .input .sub_btn {
+        width: 90%;
+    }
+
+    .section_fover_bg .mine_bar .section_box .box_section_text p {
+        position: absolute;
+        padding-top: 1.5rem;
+        width: 40%;
+    }
+
+    .contribute .contribute_bar .flex_warp {
+        flex-direction: column;
+    }
+
+    .contribute .contribute_bar .flex_warp .text_contribute {
+        padding: 2rem 2rem;
+    }
+
+    .contribute_bar .flex_warp .text_contribute p {
+        width: 100%;
+    }
+
+    .contribute .contribute_two {
+        height: 100%;
+        padding: 1rem;
+    }
+  
+    .contribute_two .contr_bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contribute_two .flex_warp .text_box {
+        padding-top: 1rem;
+        position: relative;
+        right: 8rem;
+        gap: 10rem;
+    }
+
+    .contribute_two .flex_warp .text_box .sub_two {
+        text-align: start;
+    }
+
+    .contribute_two .flex_warp .text_box .sub_two p {
+        width: 190%;
+        text-align: start;
+    }
+
+    .contribute_there .contr_there {
+        flex-direction: column;
+    }
+
+    .contribute_there .num_box {
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .footer_bar {
+        height: 100%;
+    }
+
+    .footer_bar .footer_two .team ul{
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+
+
+}
+
+@media (max-Width: 480px) {
+
+    .header_container nav {
+        height: 40%;
+    }
+
+    .home_bar .home_text h1 {
+        font-size: 1.5rem;
+    }
+
+    .home_bar .home_text p {
+        font-size: 0.8rem;
+    }
+
+    .home_bar .home_box {
+       display: block;
+    }
+
+    .section_one h4 {
+        font-size: 3vw;
+    }
+
+    .section_one h2 {
+        font-size: 6vw;
+    }
+
+    .section_there .border {
+       height: 100%;
+      }
+
+    .border h1 {
+        padding-left: 0;
+    }
+    
+    .hover_img {
+        margin-left: 1.6rem;
+    }
+
+    .from_bg .form_bar .border {
+        padding-top: 10px;
+    }
+
+    .from_bg .form_bar .border p {
+        font-size: 1rem;
+    }
+
+    .form_bar .border form .sub_btn {
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .contact_bar p {
+        font-size: 3vw;
+        padding-left: 0;
+    }
+
+    .contact_bar h1 {
+        font-size: 5vw;
+        padding-left: 0;
+    }
+
+    .contact_bar .contact_box .box_text p {
+        width: 20rem;
+        padding-left: 3.5rem;
+    }
+ 
+    .section_fover_bg {
+        margin-top: 1rem;
+    }
+
+    .section_fover_bg .mine_bar .section_box .box_section_text p {
+        width: 50%;
+    }
+
+
+    .about_bar .img_container .img_box img {
+        width: 18rem;
+    }
+
+    
+    .contribute .contribute_bar {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(-100deg, #fff, #f0b8b8);
+    }
+
+    .contribute_bar .text_contribute h1 {
+        font-size: 5vw;
+    }
+
+    .contribute_bar .text_contribute p {
+        font-size: 3vw;
+    }
+
+    .text_box .text_table .box_in h2{
+        font-size: 3vw;
+    }
+
+    .text_box .text_table .box_in p {
+        font-size: 2vw;
+        line-height: 15px;
+    }
+
+    .contribute_two .flex_warp .text_box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .contribute_two .flex_warp .text_box .sub_two p {
+        width: 13rem;
+        font-size: 12px;
+    }
+
+    .contribute_there .num_box {
+        position: relative;
+        right: 8rem;
+    }
+
+    .contribute_there .num_box .num_text .line {
+        width: 10rem;
+    }
+
+    
+    .contribute_there .num_box .num_text p {
+        width: 15rem;
+    }
+
+    .contribute_there .num_box .num_text .top_bar p {
+        width: 15rem;
+    }
+
+    .footer_bar .footer_two .team ul {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+}
