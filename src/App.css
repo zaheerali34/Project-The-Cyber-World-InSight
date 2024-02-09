@@ -33,7 +33,6 @@ a {
 }
 
 /* Header Code Start */
-
 .header_container {
   width: 100%;
   height: 100px;
@@ -59,12 +58,11 @@ a {
   margin-left: 1.5rem;
   color: #ff6868;
   cursor: pointer;
-  transition: all 0.1s;
 }
 
-.header_container nav ul li:hover {
-  border-bottom: 2px solid #ff6868;
-}
+.active li {
+  border-bottom: 4px solid rgb(255, 136, 136);
+} 
 
 .header_container nav .nav_link li span {
   background-color: rgb(0, 136, 214);

@@ -21,7 +21,7 @@ function Header() {
 
         <nav ref={navRef}>
           <ul>
-          <NavLink to={""}><li>Home</li></NavLink>
+          <NavLink to={""} ><li>Home</li></NavLink>
 
             <NavLink to={"about"}><li> About </li></NavLink>
             <li>
